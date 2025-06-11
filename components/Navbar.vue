@@ -30,7 +30,7 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
       isScrolled ? 'shadow-md' : '',
     ]"
   >
-    <div class="container text-sm items-center h-20 flex justify-between">
+    <div class="container items-center h-20 flex justify-between">
       <div>
         <h1 class="mb-0 text-xl text-primary font-bold">Donnie's Portfolio</h1>
       </div>
@@ -43,7 +43,6 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
         leave-from-class="opacity-100 translate-x-0"
         leave-to-class="opacity-0 translate-x-full"
       >
-        <!-- class="fixed font-medium text-primary text-[16px] inset-0 z-50 flex flex-col items-center justify-center gap-8 bg-light/85 backdrop-blur-md p-10 transition-transform duration-300 md:static md:inset-auto md:flex md:transform-none md:flex-row md:gap-6 md:bg-transparent md:p-0 translate-x-0 overscroll-none" -->
         <nav
           v-show="isOpen || isDesktop"
           id="menu"
@@ -61,14 +60,14 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
             <Icon
               v-show="!isDesktop"
               name="lucide:house"
-              class="w-6 h-6 mr-2"
+              class="w-6 h-6 mr-4"
             />
             <a @click="closeMenu" class="hover:text-accent" href="#home"
               >Home</a
             >
           </div>
           <div class="flex items-center">
-            <Icon v-show="!isDesktop" name="lucide:user" class="w-6 h-6 mr-2" />
+            <Icon v-show="!isDesktop" name="lucide:user" class="w-6 h-6 mr-4" />
             <a @click="closeMenu" class="hover:text-accent" href="#about"
               >About</a
             >
@@ -76,8 +75,18 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
           <div class="flex items-center">
             <Icon
               v-show="!isDesktop"
+              name="lucide:target"
+              class="w-6 h-6 mr-4"
+            />
+            <a @click="closeMenu" class="hover:text-accent" href="#mission"
+              >Mission</a
+            >
+          </div>
+          <div class="flex items-center">
+            <Icon
+              v-show="!isDesktop"
               name="lucide:layers"
-              class="w-6 h-6 mr-2"
+              class="w-6 h-6 mr-4"
             />
             <a @click="closeMenu" class="hover:text-accent" href="#projects"
               >Projects</a
@@ -87,14 +96,24 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
             <Icon
               v-show="!isDesktop"
               name="lucide:file-text"
-              class="w-6 h-6 mr-2"
+              class="w-6 h-6 mr-4"
             />
             <a @click="closeMenu" class="hover:text-accent" href="#resume"
               >Résumé</a
             >
           </div>
+          <div class="flex items-center">
+            <Icon
+              v-show="!isDesktop"
+              name="lucide:trending-up"
+              class="w-6 h-6 mr-4"
+            />
+            <a @click="closeMenu" class="hover:text-accent" href="#goals"
+              >Goals</a
+            >
+          </div>
           <div v-show="!isDesktop" class="flex items-center">
-            <Icon name="lucide:mail" class="w-6 h-6 mr-2" />
+            <Icon name="lucide:mail" class="w-6 h-6 mr-4" />
             <a @click="closeMenu" class="hover:text-accent" href="#resume"
               >Contact</a
             >
@@ -104,11 +123,12 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
 
       <div class="flex gap-4">
         <div>
-          <button
-            class="bg-accent font-medium text-[16px] text-light px-4 py-2 rounded-md hover:bg-accent/80"
+          <a
+            href="#contact"
+            class="bg-accent font-medium text-light px-4 py-2 rounded-md hover:bg-accent/80"
           >
             Let's Connect
-          </button>
+          </a>
         </div>
         <button
           @click="openMenu"

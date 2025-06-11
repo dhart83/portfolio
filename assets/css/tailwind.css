@@ -36,9 +36,9 @@ h2 {
 }
 
 h3 {
-  @apply mb-3 text-xl font-bold;
+  @apply mb-3 text-xl font-bold md:text-2xl;
 }
 
 p {
-  @apply text-body;
+  @apply text-body md:text-lg;
 }
