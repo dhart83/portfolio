@@ -5,11 +5,11 @@ export default {
     extend: {
       colors: {
         primary: "#3B3C65",
-        secondary: "#FF6B6B",
-        accent: "#2CE6C3",
-        light: "#FFFCFF",
+        secondary: "#FF4C4C",
+        accent: "#009688",
+        light: "#FFFAFF",
         heading: "#2D2F3F",
-        body: "#697EA3",
+        body: "#888888",
       },
       fontFamily: {
         inter: ["Inter", "san-serif"],
