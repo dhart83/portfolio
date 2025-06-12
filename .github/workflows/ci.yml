@@ -1,0 +1,41 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      USER: ${{ secrets.AWS_EC2_USER }}
+      HOST: ${{ secrets.AWS_EC2_HOST }}
+      SSH_KEY: ${{ secrets.AWS_EC2_SSH_KEY }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Add AWS EC2 SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo -n "$SSH_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+      - name: Add EC2 to known_hosts
+        run: |
+          ssh-keyscan -H $HOST >> ~/.ssh/known_hosts
+
+      - name: SSH to EC2 Server & Deploy App
+        run: |
+          ssh $USER@$HOST << 'EOF'
+            set -e
+            docker ps -q --filter "name=portfolio-app" | grep -q . && docker stop portfolio-app && docker rm portfolio-app || echo "No running container"
+            docker image -q portfolio-image | grep -q . && docker rmi portfolio-image || echo "No old image to remove"
+            rm -rf ~/portfolio
+            git clone git@github.com:dhart83/portfolio.git ~/portfolio
+            cd ~/portfolio
+            docker build -t portfolio-image .
+            docker run -d -p 3000:3000 --name portfolio-app portfolio-image
+          EOF
