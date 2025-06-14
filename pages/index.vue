@@ -1,9 +1,8 @@
 <template>
-  <HeroSection id="home" />
+  <HeroSection id="hero" />
   <AboutSection id="about" />
-  <MissionSection id="mission" />
   <ProjectsSection id="projects" />
-  <ResumeSection id="resume" />
-  <GoalSection id="goals" />
+  <ExperienceSection id="experience" />
+  <VisionSection id="vision" />
   <ContactSection id="contact" />
 </template>

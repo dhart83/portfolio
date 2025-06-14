@@ -9,7 +9,7 @@ export default {
         accent: "#009688",
         light: "#FFFAFF",
         heading: "#2D2F3F",
-        body: "#888888",
+        body: "#787878",
       },
       fontFamily: {
         inter: ["Inter", "san-serif"],

@@ -26,6 +26,8 @@
             </a>
 
             <a
+              href="/docs/resume.pdf"
+              download
               class="border border-secondary text-secondary font-medium px-6 py-3 rounded-md hover:bg-secondary/10"
             >
               Download Résumé

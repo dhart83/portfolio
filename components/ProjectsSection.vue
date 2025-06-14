@@ -1,17 +1,26 @@
 <template>
   <section>
     <div class="container">
-      <div class="text-center bg-inherit">
-        <div
-          class="inline-block bg-accent/10 text-accent font-semibold px-4 py-1 rounded-full text-sm mb-3"
-        >
-          What I’ve Done
-        </div>
-        <h2>Featured Projects</h2>
-        <p class="max-w-2xl mx-auto">
-          A selection of projects spanning embedded systems, DevOps automation,
-          and practical web tools.
+      <SectionHeader
+        tag="My projects"
+        title="Projects, Prototypes, and Ideas"
+        subTitle="This space is used to document my hands-on work outside of my career. Projects where I test ideas, try new stacks, or build things just to see if I can."
+        color="accent"
+      />
+      <div>
+        <p>
+          This section will grow as I build. Some projects are meant for
+          hands-on technical exploration; others are stepping stones toward
+          tools or systems that solve real problems.
         </p>
+
+        <p>
+          Right now, I’m focusing on DevOps workflows, backend infrastructure,
+          and automating development environments. Future projects may include
+          embedded platforms, custom hardware, or user-facing utilities.
+        </p>
+
+        <p>All code and demos will be added as they’re started.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
         <ProjectCard

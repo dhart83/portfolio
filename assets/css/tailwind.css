@@ -40,5 +40,5 @@ h3 {
 }
 
 p {
-  @apply text-body md:text-lg;
+  @apply text-body mt-6 md:text-lg;
 }

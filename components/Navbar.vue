@@ -62,7 +62,7 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
               name="lucide:house"
               class="w-6 h-6 mr-4"
             />
-            <a @click="closeMenu" class="hover:text-accent" href="#home"
+            <a @click="closeMenu" class="hover:text-accent" href="#hero"
               >Home</a
             >
           </div>
@@ -70,16 +70,6 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
             <Icon v-show="!isDesktop" name="lucide:user" class="w-6 h-6 mr-4" />
             <a @click="closeMenu" class="hover:text-accent" href="#about"
               >About</a
-            >
-          </div>
-          <div class="flex items-center">
-            <Icon
-              v-show="!isDesktop"
-              name="lucide:target"
-              class="w-6 h-6 mr-4"
-            />
-            <a @click="closeMenu" class="hover:text-accent" href="#mission"
-              >Mission</a
             >
           </div>
           <div class="flex items-center">
@@ -98,23 +88,23 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
               name="lucide:file-text"
               class="w-6 h-6 mr-4"
             />
-            <a @click="closeMenu" class="hover:text-accent" href="#resume"
-              >Résumé</a
+            <a @click="closeMenu" class="hover:text-accent" href="#experience"
+              >Experience</a
             >
           </div>
           <div class="flex items-center">
             <Icon
               v-show="!isDesktop"
-              name="lucide:trending-up"
+              name="lucide:telescope"
               class="w-6 h-6 mr-4"
             />
-            <a @click="closeMenu" class="hover:text-accent" href="#goals"
-              >Goals</a
+            <a @click="closeMenu" class="hover:text-accent" href="#vision"
+              >Vision</a
             >
           </div>
           <div v-show="!isDesktop" class="flex items-center">
             <Icon name="lucide:mail" class="w-6 h-6 mr-4" />
-            <a @click="closeMenu" class="hover:text-accent" href="#resume"
+            <a @click="closeMenu" class="hover:text-accent" href="#contact"
               >Contact</a
             >
           </div>
