@@ -1,7 +1,7 @@
 <template>
   <form
     @submit.prevent="handleSubmit"
-    class="max-w-xl mx-auto mt-10 bg-white p-6 rounded-2xl shadow-md dark:bg-zinc-900"
+    class="max-w-xl mx-auto mt-10 bg-white p-6 rounded-2xl shadow-lg dark:bg-zinc-900"
   >
     <div class="space-y-2">
       <label

@@ -5,8 +5,7 @@
       <SectionHeader
         tag="Future Vision"
         title="What I'm Building Toward"
-        subTitle="Current interests, long-term goals, and an evolving
-        skillset."
+        subTitle="Current interests, long-term goals, and an evolving skillset."
         color="accent"
       />
 
