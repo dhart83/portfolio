@@ -2,19 +2,22 @@
   <div class="text-center bg-inherit">
     <div
       :class="[
-        'inline-block font-semibold px-4 py-1 rounded-full text-sm mb-10',
-        `bg-${color}/10`,
+        'uppercase tracking-widest rounded-full text-sm',
         `text-${color}`,
       ]"
     >
       {{ tag }}
     </div>
-    <h2 class="text-primary mb-4">{{ title }}</h2>
+
+    <h2 class="text-primary mt-4">{{ title }}</h2>
+
     <p class="max-w-xl mx-auto font-light text-gray-400 mt-2 mb-6">
       {{ subTitle }}
     </p>
   </div>
+
   <slot />
+
   <div class="flex items-center justify-center">
     <div class="border-t border-gray-400 w-20"></div>
     <div class="flex mx-3">

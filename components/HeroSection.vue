@@ -1,21 +1,16 @@
 <template>
   <section class="min-h-screen flex items-center py-0 pt-20">
     <div class="container">
-      <div class="grid gap-12 lg:grid-cols-2">
+      <div class="grid gap-12 xl:grid-cols-2">
         <div>
-          <div
-            class="inline-block bg-accent/10 text-accent font-semibold px-4 py-1 rounded-full text-base uppercase tracking-wider mb-6"
-          >
-            What I Do
-          </div>
-          <h1 class="max-w-xl">
-            Build with
-            <span class="text-accent">Clarity</span>,<br />
-            Ship with <span class="text-secondary">Confidence</span>
+          <h1 class="space-y-2">
+            <span class="text-accent block">Engineer.</span>
+            <span class="text-secondary block">Developer.</span>
+            <span class="text-primary block">Problem Solver.</span>
           </h1>
           <p class="max-w-xl mb-8 text-lg lg:text-xl">
-            Engineer focused on delivering clean, reliable, and efficient
-            systems, from embedded firmware to automated DevOps workflows.
+            From low-level firmware to cloud pipelines, I care about making
+            things that work well and keep working.
           </p>
           <div class="flex gap-4">
             <a

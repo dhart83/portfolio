@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  @apply py-24 md:py-32;
+  @apply py-24 md:py-32 leading-relaxed;
 }
 
 .container {
