@@ -1,0 +1,141 @@
+[
+  {
+    "id": "0",
+    "name": "L3Harris Technologies",
+    "sector": "Space & Airborne Systems ",
+    "role": "Senior Associate Electrical Engineer",
+    "location": {
+      "city": "Palm Bay",
+      "state": "FL"
+    },
+    "dates": {
+      "start": "2021",
+      "finish": "Current"
+    },
+    "programs": [
+      {
+        "title": "NextGen IRAD",
+        "description": "Supported DO-254 compliance for multiple flight display FPGAs. Responsible for verification planning, UVM testbenches, and lint cleanup.",
+        "role": "Verification Engineer",
+        "tasks": [
+          {
+            "name": "100G Ethernet",
+            "achievements": [
+              "Integrated a 100G Ethernet module for IQ streaming using vendor IP for MORA framing, UDP/IP, and MAC interfaces.",
+              "Configured Xilinx clocking and AXI SmartConnect IP to manage cross-domain timing using CDC FIFOs and AXI Stream interfaces.",
+              "Developed a parameterized wrapper supporting multiple Ethernet instances and optical output paths for modular deployment.",
+              "Resolved timing issues by manually optimizing GT and CMAC placement to align clock regions and achieve timing closure.",
+              "Delivered a system-level timing-closed build with full Ethernet integration for design handoff and downstream testing."
+            ]
+          }
+        ],
+        "technologies": ["FPGA", "DO-254", "UVM"],
+        "tools": ["Vivado", "Questa", "Jira"]
+      },
+      {
+        "title": "Military Displays",
+        "description": "Supported DO-254 compliance for multiple flight display FPGAs. Responsible for verification planning, UVM testbenches, and lint cleanup.",
+        "role": "Verification Engineer",
+        "tasks": [
+          {
+            "name": "UVM Verification",
+            "achievements": [
+              "Contributed to DO-254 DAL-A compliant hardware development and design reviews for five FPGAs across SMFD and CMFD.",
+              "Resolved linting and verification issues and contributed to Hardware Design Documentation (HDD) for FPGA design reviews.",
+              "Assisted UVM verification by writing requirement-specific testcases, running regressions, analyzing results, and reporting bugs.",
+              "Implemented JasperGold formal analysis, resolved unreachable code, created waivers, and reviewed peer testcases.",
+              "Participated in DO-254 review milestones including CoDR, DDR, HRD, and HTP, ensuring full traceability through IBM DOORs."
+            ]
+          }
+        ],
+        "technologies": ["FPGA", "DO-254", "UVM"],
+        "tools": ["Vivado", "Questa", "Jira"]
+      },
+      {
+        "title": "Burma",
+        "description": "Supported DO-254 compliance for multiple flight display FPGAs. Responsible for verification planning, UVM testbenches, and lint cleanup.",
+        "role": "Verification Engineer",
+        "tasks": [
+          {
+            "name": "FPGA Design",
+            "achievements": [
+              "Updated a legacy Spartan-6 FPGA design for validating command and telemetry data across RF slice configurations.",
+              "Modified RTL to add watchdog timer, revise memory maps, reconfigure I/O, and remove deprecated logic",
+              "Owned the full FPGA lifecycle including simulation, synthesis, build, and handoff to the integration/test team.",
+              "Supported and verified 8b10b encoding/decoding logic for serial command and telemetry exchange between the FPGA and CCA.",
+              "Led and presented all formal design reviews, including Startup, Requirements, Conceptual, Logic, and Physical Implementation."
+            ]
+          }
+        ],
+        "technologies": ["FPGA", "DO-254", "UVM"],
+        "tools": ["Vivado", "Questa", "Jira"]
+      },
+      {
+        "title": "F35-TR3 ICP",
+        "description": "Supported DO-254 compliance for multiple flight display FPGAs. Responsible for verification planning, UVM testbenches, and lint cleanup.",
+        "role": "Verification Engineer",
+        "tasks": [
+          {
+            "name": "FPGA Design",
+            "achievements": [
+              "Supported automation of NEO and POE test procedures using Python, replacing manual steps and improving test reliability.",
+              "Automation significantly reduced execution time and eliminated human error, enabling repeatable, consistent validation.",
+              "Updated UVM test sequences and regressions to restore full coverage after source code changes."
+            ]
+          }
+        ],
+        "technologies": ["FPGA", "DO-254", "UVM"],
+        "tools": ["Vivado", "Questa", "Jira"]
+      },
+      {
+        "title": "F35-TR3 ICP",
+        "description": "Supported DO-254 compliance for multiple flight display FPGAs. Responsible for verification planning, UVM testbenches, and lint cleanup.",
+        "role": "Verification Engineer",
+        "tasks": [
+          {
+            "name": "Testing",
+            "achievements": [
+              "Supported automation of NEO and POE test procedures using Python, replacing manual steps and improving test reliability.",
+              "Automation significantly reduced execution time and eliminated human error, enabling repeatable, consistent validation.",
+              "Updated UVM test sequences and regressions to restore full coverage after source code changes."
+            ]
+          }
+        ],
+        "technologies": ["FPGA", "DO-254", "UVM"],
+        "tools": ["Vivado", "Questa", "Jira"]
+      },
+      {
+        "title": "Internal Initiative",
+        "description": "Supported DO-254 compliance for multiple flight display FPGAs. Responsible for verification planning, UVM testbenches, and lint cleanup.",
+        "role": "Verification Engineer",
+        "tasks": [
+          {
+            "name": "Jenkins DevOps Support",
+            "achievements": [
+              "Developed a shared Jenkins library to streamline CI/CD pipeline creation and eliminate redundant scripting across programs.",
+              "Standardized pipeline stages for linting, simulation, synthesis, and automated artifact delivery to JFrog Artifactory.",
+              "Improved workflow consistency and maintainability, supporting easier onboarding and cross-program adoption."
+            ]
+          }
+        ],
+        "technologies": ["FPGA", "DO-254", "UVM"],
+        "tools": ["Vivado", "Questa", "Jira"]
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "University of Florida",
+    "sector": "Herbert Wertheim College of Engineering",
+    "role": "Bachelor of Science, Computer Engineering",
+    "location": {
+      "city": "Gainesville",
+      "state": "FL"
+    },
+    "dates": {
+      "start": "2015",
+      "finish": "2020"
+    },
+    "programs": []
+  }
+]

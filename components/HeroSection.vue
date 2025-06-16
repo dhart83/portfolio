@@ -15,7 +15,7 @@
           <div class="flex gap-4">
             <a
               href="#projects"
-              class="bg-accent font-medium text-light px-6 py-3 rounded-md hover:bg-accent/80"
+              class="bg-accent font-medium text-light px-6 py-3 rounded-md hover:bg-accent/80 transition-all duration-300 ease-in-out"
             >
               View Projects
             </a>
@@ -23,7 +23,7 @@
             <a
               href="/docs/resume.pdf"
               download
-              class="border border-secondary text-secondary font-medium px-6 py-3 rounded-md hover:bg-secondary/10"
+              class="border border-secondary text-secondary font-medium px-6 py-3 rounded-md hover:bg-secondary/10 transition-all duration-300 ease-in-out"
             >
               Download Résumé
             </a>

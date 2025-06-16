@@ -1,0 +1,208 @@
+[
+  {
+    "id": "hoaide",
+    "title": "HOAide App",
+    "tagline": "Your AI-powered assistant for HOA communication.",
+    "description": "HOAide is an AI-powered assistant that streamlines communication between residents and HOA/property managers. By using natural language classification, document parsing, and automated response drafting, HOAide reduces manual workload and improves turnaround time for handling resident concerns. This full-stack SaaS project is built with a subscription-based business model in mind and includes intelligent message triage, document referencing, and administrative controls.",
+    "problem": "HOA and property managers are overwhelmed by resident emails, often lacking tools to efficiently triage, reference policies, and reply quickly.",
+    "solution": "HOAide uses AI to auto-classify messages, surface relevant policy documents, and draft responses to reduce response time and improve clarity.",
+    "features": [
+      "AI-powered message classification",
+      "Document reference matching",
+      "Draft response generation",
+      "Admin controls for message approvals",
+      "Resident message history dashboard"
+    ],
+    "challenges": [
+      "Tuning classification models for edge cases",
+      "Ensuring data privacy for document references"
+    ],
+    "timeline": {
+      "start": "2025-06-01",
+      "end": null
+    },
+    "future": [
+      "Multi-language support",
+      "Mobile app version",
+      "Stripe billing integration"
+    ],
+    "type": "Full Stack App",
+    "domain": "Property Management",
+    "access": "Public",
+    "visibility": "Featured",
+    "completed": false,
+    "active": false,
+    "usage": "In Development",
+    "year": 2025,
+    "tech": ["Nuxt 3", "Tailwind CSS", "OpenAI", "Docker", "MongoDB"],
+    "roles": ["Frontend", "Backend", "Design"],
+    "image": "/assets/projects/hoaide.png",
+    "repo": "https://github.com/dhart83/hoaide",
+    "demo": "https://donniehartman.com/hoaide",
+    "gallery": [
+      "/assets/projects/hoaide-screen1.png",
+      "/assets/projects/hoaide-screen2.png"
+    ],
+    "contributors": [],
+    "stats": {
+      "stars": 42,
+      "views": 500
+    },
+    "notes": "App is a work in progress; backend is stubbed for testing."
+  },
+  {
+    "id": "tread-thread",
+    "title": "TreadThread App",
+    "tagline": "Track your treadmill progress. Connect socially.",
+    "description": "A treadmill workout tracker that syncs via NFC and displays your progress through a web app with social features.",
+    "problem": "No modern tools exist to automatically track treadmill workouts with NFC and make them social.",
+    "solution": "Use NFC and ESP32 to sync treadmill sessions to a web dashboard with progress graphs and social sharing.",
+    "features": [
+      "NFC-enabled treadmill sync",
+      "Workout dashboard",
+      "Social feed",
+      "Weekly goals and progress tracking"
+    ],
+    "challenges": ["Reliable NFC handshake", "Embedded → Web sync reliability"],
+    "timeline": {
+      "start": "2025-05-15",
+      "end": null
+    },
+    "future": ["iOS/Android app", "Wearable integration", "Trainer dashboard"],
+    "type": "Full Stack App",
+    "domain": "Fitness",
+    "access": "Public",
+    "visibility": "Featured",
+    "completed": false,
+    "active": false,
+    "usage": "Prototype",
+    "year": 2025,
+    "tech": ["Nuxt 3", "Tailwind CSS", "AWS", "NFC", "ESP32", "MongoDB"],
+    "roles": ["Frontend", "Backend", "Embedded", "Design"],
+    "image": "/assets/projects/TreadThreadLogo.png",
+    "repo": "https://github.com/dhart83/tread-thread",
+    "demo": "https://donniehartman.com/tread-thread",
+    "gallery": ["/assets/projects/treadthread-preview.png"],
+    "contributors": [],
+    "stats": {
+      "stars": 42,
+      "views": 500
+    },
+    "notes": "Prototype tested with mock treadmill data."
+  },
+  {
+    "id": "portfolio",
+    "title": "Personal Portfolio",
+    "tagline": "Polished portfolio built for performance and presence.",
+    "description": "A Nuxt 3 and Tailwind-based personal portfolio site showcasing my experience, projects, and future vision.",
+    "problem": "Generic portfolio templates didn’t reflect my real skill level or design preferences.",
+    "solution": "Built a fully customized Nuxt + Tailwind site with structured JSON data and live GitHub integration.",
+    "features": [
+      "Project gallery",
+      "Live deployment",
+      "Dynamic project routing",
+      "DevOps-friendly build"
+    ],
+    "challenges": [],
+    "timeline": {
+      "start": "2025-05-01",
+      "end": "2025-05-10"
+    },
+    "future": ["Add blog feature", "Add dark mode toggle"],
+    "type": "Portfolio Website",
+    "domain": "Professional",
+    "access": "Public",
+    "visibility": "Featured",
+    "completed": true,
+    "active": true,
+    "usage": "Live",
+    "year": 2025,
+    "tech": ["Nuxt 3", "Tailwind CSS", "AWS", "Docker", "GitHub Actions"],
+    "roles": ["Frontend", "Design", "Content"],
+    "image": "/assets/projects/personal-portfolio.png",
+    "repo": "https://github.com/dhart83/portfolio",
+    "demo": "https://donniehartman.com",
+    "gallery": ["/assets/projects/portfolio-detail1.png"],
+    "contributors": [],
+    "stats": {
+      "stars": 12,
+      "views": 950
+    },
+    "notes": "Built mobile-first with a focus on tone, polish, and DevOps-adjacent career framing."
+  },
+  {
+    "id": "xprt-events",
+    "title": "XPRT Events Website",
+    "tagline": "Where photo booth fun meets modern marketing.",
+    "description": "Marketing website for our photo booth business, built with Nuxt and Laravel. Features booking form, pricing, and reviews.",
+    "problem": "Needed a polished web presence to legitimize and promote our new business.",
+    "solution": "Built a Laravel backend with Nuxt frontend for clean SSR experience and easy client updates.",
+    "features": [
+      "Service showcase",
+      "Mobile responsiveness",
+      "Inquiry form",
+      "SEO setup"
+    ],
+    "challenges": [],
+    "timeline": {
+      "start": "2024-06-01",
+      "end": "2024-07-01"
+    },
+    "future": ["Add online booking + payment", "Photo gallery of events"],
+    "type": "Business Website",
+    "domain": "Events",
+    "access": "Public",
+    "visibility": "Standard",
+    "completed": true,
+    "active": true,
+    "usage": "Production",
+    "year": 2024,
+    "tech": ["Laravel", "Tailwind CSS"],
+    "roles": ["Full Stack", "UI/UX", "Copywriting"],
+    "image": "/assets/projects/xprt-events.png",
+    "repo": "https://github.com/dhart83/xprt-events",
+    "demo": "https://xprtevents.com",
+    "gallery": [],
+    "contributors": [],
+    "stats": {
+      "stars": 5,
+      "views": 300
+    },
+    "notes": "Business still pre-revenue; improving SEO and mobile polish."
+  },
+  {
+    "id": "krista-realty",
+    "title": "Realtor Website",
+    "tagline": "Clean real estate presence for Krista Walters.",
+    "description": "Built a modern, mobile-first website to showcase Krista Walters' real estate listings and client testimonials.",
+    "problem": "Client needed a quick and professional real estate web presence.",
+    "solution": "Designed and deployed a single-page app with embedded testimonials and contact info.",
+    "features": ["Listing grid", "Client testimonials", "Responsive layout"],
+    "challenges": [],
+    "timeline": {
+      "start": "2023-04-01",
+      "end": "2023-04-15"
+    },
+    "future": [],
+    "type": "Client Website",
+    "domain": "Real Estate",
+    "access": "Public",
+    "visibility": "Internal",
+    "completed": true,
+    "active": false,
+    "usage": "Retired",
+    "year": 2023,
+    "tech": ["React", "Styled Components"],
+    "roles": ["Frontend", "Deployment"],
+    "image": "/assets/projects/krista-walters.png",
+    "repo": "https://github.com/dhart83/krista-walters-fl-realtor",
+    "demo": "https://dhart83.github.io/krista-walters-fl-realtor",
+    "gallery": [],
+    "contributors": [],
+    "stats": {
+      "stars": 0,
+      "views": 120
+    },
+    "notes": "Client-hosted. Repo is private due to NDA."
+  }
+]

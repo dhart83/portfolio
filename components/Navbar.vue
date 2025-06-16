@@ -62,7 +62,7 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
               name="lucide:house"
               class="w-6 h-6 mr-4"
             />
-            <a @click="closeMenu" class="hover:text-accent" href="#hero"
+            <a @click="closeMenu" class="hover:text-accent" href="/#hero"
               >Home</a
             >
           </div>
@@ -115,7 +115,7 @@ watch(isOpen, (val) => (document.body.style.overflow = val ? "hidden" : ""));
         <div>
           <a
             href="#contact"
-            class="bg-accent font-medium text-light px-4 py-2 rounded-md hover:bg-accent/80"
+            class="bg-accent font-medium text-light px-4 py-2 rounded-md hover:bg-accent/80 transition-all duration-300 ease-in-out"
           >
             Let's Connect
           </a>

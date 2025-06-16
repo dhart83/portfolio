@@ -19,5 +19,5 @@
 </template>
 
 <script setup>
-import projects from "/assets/data/projects.json";
+const { data: projects } = await useFetch("/api/projects");
 </script>

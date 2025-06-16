@@ -32,5 +32,5 @@
 </template>
 
 <script setup>
-import experience from "/assets/data/experience.json";
+const { data: experience } = await useFetch("/api/experience");
 </script>
